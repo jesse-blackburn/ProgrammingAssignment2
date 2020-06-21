@@ -1,8 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Taken together, these functions take a matrix, calculate its inverse
+## if not already provided. 
+## If the inverse is already provided, these functions retrieve the 
+## inverse from storage (i.e. cache). This saves the need to calcuate the
+## inverse every time it is required.
 
 ## This function will create a matrix object.
-## This matrix object can cache its inverse. 
+## which can cache its own inverse. 
 ## Firstly, a matrix object, invrs is created
 ## and given a value of null.
 ## Second, a function named 'set' is created.
